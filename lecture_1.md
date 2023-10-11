@@ -1,0 +1,103 @@
+- Introduction
+	- Topics
+		- Course information
+			- Grading and passing
+				- Multiple-choice exam
+				- ~30 seconds per question
+				- 30-60 minutes
+				- Questions will be randomized/shuffled
+				- Answers will be randomized
+				- 2 terms to pass
+			- I will not check attendance
+			- All lectures are recorded
+				- And uploaded to Teams
+			- Contact
+				- Check if someone asked the question on Teams Channel
+				- Check if I already answered the question on Teams Channel
+				- Write to me on Teams (not e-mail!)
+		- Prerequisites
+			- JavaScript
+			- How browsers work
+			- Basic networking and Internet
+				- HTTP
+			- HTML/CSS
+		- SPAs vs traditional web app
+			- Single-Page Application (SPA):
+				- An SPA is a web application or website that interacts with the user by dynamically rewriting the current page rather than loading entire new pages from the server. This approach avoids the full page refresh and results in a more fluid and responsive user experience.
+			- Traditional Web Application:
+				- In a traditional web application, every interaction or request for data usually requires a new page to be loaded from the server, which means the entire page (HTML, CSS, and JavaScript) is reprocessed and rendered from scratch.
+				- Early 2000s: AJAX and DHTML
+					- Before the proliferation of SPA frameworks, developers utilized AJAX (Asynchronous JavaScript and XML) and DHTML (Dynamic HTML) to create more responsive web interactions.
+				- 2008-2010: jQuery and Backbone.js
+					- jQuery, although not an SPA framework itself, made AJAX and DOM manipulation much simpler, paving the way for more dynamic web applications.
+					- Backbone.js, released in 2010, was one of the first client-side frameworks to adopt the SPA model, introducing concepts like models, views, and routers.
+				- 2013: AngularJS
+					- Developed by Google, AngularJS brought two-way data binding, dependency injection, and a modular architecture to the forefront, making it a popular choice for building SPAs.
+				- 2013: React
+					- Introduced by Facebook, React wasn't a full-fledged SPA framework but rather a library for building user interfaces. Its virtual DOM approach and component-based architecture made it extremely efficient and popular. Over time, additional tools and libraries emerged around React to enable SPA development, such as React Router.
+			- Differences
+				- Page Refresh:
+					- SPA: Does not require full page refreshes when content changes. Only the necessary content is updated.
+					- Traditional: Typically requires a full page load with every request.
+				- Loading Time:
+					- SPA: The initial load might take a bit longer because the entire application (or a significant part of it) is often loaded up front. However, subsequent interactions are usually faster due to on-demand data loading.
+					- Traditional: Faster initial page load since only the requested page's resources are fetched, but each subsequent interaction typically requires a full round trip to the server, which might make it feel slower.
+				- Server Interaction:
+					- SPA: Interacts with the server mainly through AJAX (Asynchronous JavaScript and XML) requests to fetch or send only the necessary data, often in JSON format.
+					- Traditional: Requests complete HTML pages from the server.
+				- State Management:
+					- SPA: Maintains application state client-side between routes, which can provide a more seamless user experience.
+					- Traditional: State can be harder to maintain across page loads without using techniques like cookies or server-side sessions.
+				- Development Complexity:
+					- SPA: May involve more complex tools and frameworks due to the need for client-side routing, state management, and handling asynchronous operations.
+					- Traditional: Often simpler in structure and development since each page is typically handled as a separate entity.
+		- Setup and running
+			- create-react-app
+			- [codesandbox](https://codesandbox.io/)
+			- Node and npm
+		- Resources
+			- https://react.dev/learn
+			- https://react.dev/reference/react
+			- https://javascript.info/
+			- https://developer.mozilla.org/en-US/
+		- Hands-on tutorial
+			- create-react-app project and file structure
+			- Basic components
+			- JSX
+			- Lists
+			- Component composition
+	- Supplementary
+		- Frontend
+			- [**Web applications 101**](https://www.robinwieruch.de/web-applications/)
+			- [React's Design Principles](https://legacy.reactjs.org/docs/design-principles.html)
+			- [Frontend roadmap]([https://roadmap.sh/frontend](https://roadmap.sh/frontend))
+			- [How the web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+			- [How does the Internet work](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
+			- [JavaScript and the Browser](https://eloquentjavascript.net/14_browser.html)
+			- [How Browsers Work: Behind the scenes of modern web browsers](https://www.html6rocks.com/en/tutorials/internals/howbrowserswork/)
+		- JavaScript
+			- [javascript.info](https://javascript.info/)
+			- [JavaScript For Cats](http://jsforcats.com/)
+			- [Eloquent JavaScript]([https://eloquentjavascript.net/index.html](https://eloquentjavascript.net/index.html))
+			- [History of JavaScript](https://www.youtube.com/watch?v=Sh7lK57Cuk4&list=PL0vfts4VzfNixzfaQWwDUg3W5TRbE7CyI&index=3&ab_channel=Fireship)
+		- Other
+			- [StackOverflow Developer Survey 2024](https://survey.stackoverflow.co/2023/)
+			- [Installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+			- [create-react-app](https://create-react-app.dev/)
+			- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+	- Homework
+		- Install Node.js and npm
+		- Create a hello-world project using create-react-app
+		- Read and follow React's Quick Start tutorial: https://react.dev/learn
+		- Read a bit more through React's create-react-app [documentation](https://github.com/facebook/create-react-app) and [getting started guide](https://create-react-app.dev/docs/getting-started/)
+		- Read more about the folder structure in create-react-app
+		- Read more about the [scripts](https://create-react-app.dev/docs/available-scripts/) in create-react-app
+			- Start your React application with npm start on the command line and check it out in the
+			  browser.  
+			- Run the npm test script.
+			- Run the npm run build script and verify that a build/ folder was added to your project
+			  (you can remove it afterward). Note that the build folder can be used later on to deploy  
+			  your application  
+		- Make sure you are familiar with topics under: https://gist.github.com/IwoHerka/86999335a40821343c60f519daa7ade7#appendix-a---optional-topics-in-the-internet
+	-
+	-
